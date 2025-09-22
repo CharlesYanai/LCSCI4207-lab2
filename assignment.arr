@@ -1,5 +1,9 @@
 import file("lab2-support.arr") as support
 
+#IMPORTANT: Me and Jaden Chen both worked on this file because VS Code wasn't working for Windows Computers
+#As such, our submissions should be the same
+
+
 "Testing Encryptor #1"
 support.encryptor1("testing ")
 
@@ -147,6 +151,7 @@ fun myEncryptor10(input :: String) -> String:
  
   
   string-repeat(string-to-lower(string-substring(myEncryptor5(string-replace(string-replace(input,"r",""),"R","")),0,4)),5)
+  
 end
 
 myEncryptor10("chirp")
